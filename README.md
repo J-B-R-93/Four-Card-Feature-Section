@@ -10,11 +10,14 @@ It is still missing the Desktop background svg, and the mobile version (responsi
 
 # Screenshot for the page
 
+![image](https://user-images.githubusercontent.com/82395036/134781141-ee755a38-fab7-4bc6-a79f-ba0de4eeb2b1.png)
+
+
 # Links
 
 Solution URL: https://github.com/J-B-R-93/Four-Card-Feature-Section.git
 
-Live Site URL:
+Live Site URL: https://j-b-r-93.github.io/Four-Card-Feature-Section/
 
 # My process
 
