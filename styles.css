@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 100px auto;
+  width: 1400px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+h1 {
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+h2 {
+  font-weight: 600;
+  font-size: 30px;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 20px;
+}
+.container {
+  margin-bottom: 50px;
+}
+.intro-text {
+  font-weight: 200;
+  font-size: 14px;
+  color: hsl(229, 6%, 66%);
+  margin: 20px 450px 60px 450px;
+}
+
+.card-title {
+  font-weight: bolder;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.card-text {
+  color: hsl(229, 6%, 66%);
+}
+/* FLEXBOX Positioning */
+.cards-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Cards styles */
+.card {
+  height: 250px;
+  width: 350px;
+  padding: 40px 20px;
+  text-align: left;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.card1 {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+.card2 {
+  border-top: 4px solid hsl(0, 78%, 62%);
+  margin-bottom: 30px;
+}
+.card3 {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+.card4 {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+/* Icons positioning */
+.icon {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+/* Footer Section */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
