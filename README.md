@@ -25,4 +25,5 @@ Live Site URL: https://j-b-r-93.github.io/Four-Card-Feature-Section/
 -Google fonts link (poppins)
 -CSS properties like box-sixing, margins, paddings, borders, box-shadow, ...
 -Flexbox to the container containing 3 children, left card, 2 mid cards and right card.
+-Absolute positioning to icons inside cards
 -Missing the background svg image and the responsive design for mobile (to be added later)
