@@ -3,12 +3,14 @@
   margin: 0;
   padding: 0;
 }
+html {
+  font-size: 62.5%;
+}
 body {
-  margin: 100px auto;
-  width: 1400px;
+  margin: 7rem auto;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 h1 {
   font-weight: 200;
@@ -16,44 +18,53 @@ h1 {
 }
 h2 {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 3rem;
   color: hsl(234, 12%, 34%);
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .container {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+}
+.top-section {
+  width: 35%;
 }
 .intro-text {
   font-weight: 200;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: hsl(229, 6%, 66%);
-  margin: 20px 450px 60px 450px;
 }
 
 .card-title {
   font-weight: bolder;
   color: hsl(234, 12%, 34%);
-  margin-bottom: 20px;
-  font-size: 22px;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
 }
 .card-text {
   color: hsl(229, 6%, 66%);
 }
 /* FLEXBOX Positioning */
 .cards-display {
+  /* height: 70vh; */
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 3rem;
 }
 
 /* Cards styles */
 .card {
-  height: 250px;
-  width: 350px;
-  padding: 40px 20px;
+  height: 25rem;
+  width: 35rem;
+  padding: 2rem 2rem;
   text-align: left;
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
   position: relative;
 }
 .card1 {
@@ -61,7 +72,7 @@ h2 {
 }
 .card2 {
   border-top: 4px solid hsl(0, 78%, 62%);
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 .card3 {
   border-top: 4px solid hsl(34, 97%, 64%);
@@ -73,14 +84,59 @@ h2 {
 /* Icons positioning */
 .icon {
   position: absolute;
-  right: 30px;
-  bottom: 30px;
+  right: 3rem;
+  bottom: 3rem;
 }
 /* Footer Section */
 .attribution {
-  font-size: 11px;
+  font-size: 1.2rem;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
+@media (max-width: 68em) {
+  .top-section {
+    width: 50%;
+  }
+  .cards-display {
+    flex-direction: column;
+  }
+  .intro-text,
+  .card-text {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 46em) {
+  .top-section {
+    width: 70%;
+  }
+  .intro-text,
+  .card-text {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 34em) {
+  .top-section {
+    width: 90%;
+  }
+  .intro-text,
+  .card-text {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 25em) {
+  html {
+    font-size: 50%;
+  }
+  .intro-text,
+  .card-text {
+    font-size: 1.8rem;
+  }
+  .top-section {
+    padding: 1.5rem;
+    width: 100%;
+  }
 }
